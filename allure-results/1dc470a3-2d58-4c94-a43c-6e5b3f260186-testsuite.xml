@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1605682126552' stop='1605682130675'>
+    <name>simple test demo</name>
+    <title>simple test demo</title>
+    <test-cases>
+        <test-case start='1605682128666' status='passed' stop='1605682130670'>
+            <name>simple passed test</name>
+            <title>simple passed test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1605682130670' status='passed' stop='1605682130670'>
+                    <name>initial</name>
+                    <title>initial</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1605682130670' status='broken' stop='1605682130672'>
+            <name>test with step</name>
+            <title>test with step</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1605682130670' status='passed' stop='1605682130670'>
+                    <name>initial</name>
+                    <title>initial</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1605682130670' status='broken' stop='1605682130671'>
+                    <name>break test</name>
+                    <title>break test</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Make test broken</message>
+                <stack-trace>Error: Make test broken
+                    at /Users/leochung/Documents/FE/testjenkins/test/add.test.js:23:13
+                    at /Users/leochung/node_modules/allure-js-commons/runtime.js:18:31
+                    at Context.&lt;anonymous> (test/add.test.js:33:7)
+                    at processImmediate (internal/timers.js:444:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1605682130672' status='failed' stop='1605682130675'>
+            <name>failed test</name>
+            <title>failed test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected false to equal true</message>
+                <stack-trace>AssertionError: expected false to equal true
+                    at Context.&lt;anonymous> (test/add.test.js:37:24)
+                    at processImmediate (internal/timers.js:444:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

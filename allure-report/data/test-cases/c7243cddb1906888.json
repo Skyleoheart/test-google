@@ -1,0 +1,52 @@
+{
+  "uid" : "c7243cddb1906888",
+  "name" : "failed test",
+  "fullName" : "simple test demo.failed test",
+  "historyId" : "3aed0599b58507afe1a5972077ca2ac7",
+  "time" : {
+    "start" : 1605682130672,
+    "stop" : 1605682130675,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected false to equal true",
+  "statusTrace" : "AssertionError: expected false to equal true\n                    at Context.<anonymous> (test/add.test.js:37:24)\n                    at processImmediate (internal/timers.js:444:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "simple test demo"
+  }, {
+    "name" : "testClass",
+    "value" : "simple test demo"
+  }, {
+    "name" : "testMethod",
+    "value" : "failed test"
+  }, {
+    "name" : "package",
+    "value" : "simple test demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7243cddb1906888.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "72375b8cb84ca9d6",
+  "name" : "test with step",
+  "fullName" : "simple test demo.test with step",
+  "historyId" : "eace962beec9e7d50c5dd30ed74ebb02",
+  "time" : {
+    "start" : 1605682130670,
+    "stop" : 1605682130672,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Make test broken",
+  "statusTrace" : "Error: Make test broken\n                    at /Users/leochung/Documents/FE/testjenkins/test/add.test.js:23:13\n                    at /Users/leochung/node_modules/allure-js-commons/runtime.js:18:31\n                    at Context.<anonymous> (test/add.test.js:33:7)\n                    at processImmediate (internal/timers.js:444:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Make test broken",
+    "statusTrace" : "Error: Make test broken\n                    at /Users/leochung/Documents/FE/testjenkins/test/add.test.js:23:13\n                    at /Users/leochung/node_modules/allure-js-commons/runtime.js:18:31\n                    at Context.<anonymous> (test/add.test.js:33:7)\n                    at processImmediate (internal/timers.js:444:21)",
+    "steps" : [ {
+      "name" : "initial",
+      "time" : {
+        "start" : 1605682130670,
+        "stop" : 1605682130670,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "break test",
+      "time" : {
+        "start" : 1605682130670,
+        "stop" : 1605682130671,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Make test broken\n                    at /Users/leochung/Documents/FE/testjenkins/test/add.test.js:23:13\n                    at /Users/leochung/node_modules/allure-js-commons/runtime.js:18:31\n                    at Context.<anonymous> (test/add.test.js:33:7)\n                    at processImmediate (internal/timers.js:444:21)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "simple test demo"
+  }, {
+    "name" : "testClass",
+    "value" : "simple test demo"
+  }, {
+    "name" : "testMethod",
+    "value" : "test with step"
+  }, {
+    "name" : "package",
+    "value" : "simple test demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "72375b8cb84ca9d6.json",
+  "parameterValues" : [ ]
+}
